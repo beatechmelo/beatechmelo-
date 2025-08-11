@@ -4,6 +4,42 @@ Este é um projeto simples de um relógio digital criado com HTML, CSS e JavaScr
 
 ---
 
+## 🧾 Especificações Técnicas
+
+Criar um relógio digital funcional que:
+
+- Exibe a hora atual em tempo real (HH:MM:SS);
+- Atualiza automaticamente a cada segundo;
+- É exibido de forma centralizada e responsiva na tela;
+- Possui estilo visual moderno, com fundo escuro e destaque para os números.
+
+---
+
+## 💻 Tecnologias utilizadas:
+
+- HTML5;
+- CSS3 (com flexbox e sombras);
+- JavaScript (funções de data e intervalos com `setInterval`).
+
+---
+
+## 📚 O que aprendi:
+
+- **Manipulação do DOM**: usar `getElementById` e atualizar conteúdo HTML dinamicamente.
+- **Funções de tempo**: aplicar `Date()` para capturar hora atual e `setInterval()` para atualizações contínuas.
+- **Formatação de strings**: usar `.padStart()` para garantir que os números fiquem sempre com dois dígitos.
+- **Estilização com CSS moderno**: aplicar sombras, cores contrastantes e centralização com Flexbox.
+- **Boas práticas de estruturação**: separar lógica em funções e manter o HTML limpo e sem elementos desnecessários.
+
+---
+
+## 🛠️ Como usar:
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/relogio-digital.git
+##
+
 ## 🧾 Código HTML completo
 
 ```html
