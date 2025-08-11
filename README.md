@@ -1,12 +1,48 @@
-# Relógio Digital ⏰
+<!--# Relógio Digital ⏰
 
-Projeto simples de um relógio digital feito com HTML, CSS e JavaScript.
+Projeto simples de um relógio digital feito com HTML, CSS e JavaScript. 
+---
+
+## 🧾 Especificações Técnicas
+
+Criar um relógio digital funcional que:
+
+- Exibe a hora atual em tempo real (HH:MM:SS);
+- Atualiza automaticamente a cada segundo;
+- É exibido de forma centralizada e responsiva na tela;
+- Possui estilo visual moderno, com fundo escuro e destaque para os números.
 
 ---
 
-### 💻 Código HTML
+## 💻 Tecnologias utilizadas:
 
-```html
+- HTML5;
+- CSS3 (com flexbox e sombras);
+- JavaScript (funções de data e intervalos com `setInterval`).
+
+---
+
+## 📚 O que aprendi:
+
+- **Manipulação do DOM**: usar `getElementById` e atualizar conteúdo HTML dinamicamente.
+- **Funções de tempo**: aplicar `Date()` para capturar hora atual e `setInterval()` para atualizações contínuas.
+- **Formatação de strings**: usar `.padStart()` para garantir que os números fiquem sempre com dois dígitos.
+- **Estilização com CSS moderno**: aplicar sombras, cores contrastantes e centralização com Flexbox.
+- **Boas práticas de estruturação**: separar lógica em funções e manter o HTML limpo e sem elementos desnecessários.
+
+---
+
+## 🛠️ Como usar:
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/relogio-digital.git
+
+---
+
+### 💻 Código HTML 
+
+```html-->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -15,8 +51,8 @@ Projeto simples de um relógio digital feito com HTML, CSS e JavaScript.
   <title>Relógio Digital</title>
   <style>
     body {
-      background-color: #0f172a;
-      color: #fff;
+     background-color: #000; /* Fundo preto */
+            color: #ff1493; /* Rosa choque */
       font-family: Arial, sans-serif;
       display: flex;
       align-items: center;
@@ -29,14 +65,14 @@ Projeto simples de um relógio digital feito com HTML, CSS e JavaScript.
       background: rgba(255, 255, 255, 0.1);
       padding: 20px 40px;
       border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.7);
     }
 
     #clock {
       font-size: 3rem;
       letter-spacing: 2px;
       text-align: center;
-      border: 1px solid red; /* Para teste */
+      border: 1px solid white; /* Para teste */
     }
   </style>
 </head>
@@ -62,9 +98,9 @@ Projeto simples de um relógio digital feito com HTML, CSS e JavaScript.
   </script>
 </body>
 </html>
-git init
+<!--git init
 git add .
 git commit -m "Primeiro commit do relógio"
 git remote add origin https://github.com/beatechmelo/relogio-digital.git
 git branch -M main
-git push -u origin main
+git push -u origin main-->
