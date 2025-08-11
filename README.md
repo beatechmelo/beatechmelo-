@@ -51,8 +51,8 @@ git clone https://github.com/seu-usuario/relogio-digital.git
   <title>Relógio Digital</title>
   <style>
     body {
-     background-color: #000; /* Fundo preto */
-            color: #ff1493; /* Rosa choque */
+     background-color: #000; 
+            color: #ff1493; 
       font-family: Arial, sans-serif;
       display: flex;
       align-items: center;
