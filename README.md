@@ -1,4 +1,4 @@
-<!--# ⏰ Projeto: Relógio Digital
+# ⏰ Projeto: Relógio Digital
 
 Este é um projeto simples de um relógio digital criado com HTML, CSS e JavaScript.
 
@@ -6,7 +6,7 @@ Este é um projeto simples de um relógio digital criado com HTML, CSS e JavaScr
 
 ## 🧾 Código HTML completo
 
-```html-->
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
