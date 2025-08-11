@@ -1,58 +1,22 @@
-<!--# Relógio Digital ⏰
+# ⏰ Projeto: Relógio Digital
 
-Projeto simples de um relógio digital feito com HTML, CSS e JavaScript. 
----
-
-## 🧾 Especificações Técnicas
-
-Criar um relógio digital funcional que:
-
-- Exibe a hora atual em tempo real (HH:MM:SS);
-- Atualiza automaticamente a cada segundo;
-- É exibido de forma centralizada e responsiva na tela;
-- Possui estilo visual moderno, com fundo escuro e destaque para os números.
+Este é um projeto simples de um relógio digital criado com HTML, CSS e JavaScript.
 
 ---
 
-## 💻 Tecnologias utilizadas:
+## 🧾 Código HTML completo
 
-- HTML5;
-- CSS3 (com flexbox e sombras);
-- JavaScript (funções de data e intervalos com `setInterval`).
-
----
-
-## 📚 O que aprendi:
-
-- **Manipulação do DOM**: usar `getElementById` e atualizar conteúdo HTML dinamicamente.
-- **Funções de tempo**: aplicar `Date()` para capturar hora atual e `setInterval()` para atualizações contínuas.
-- **Formatação de strings**: usar `.padStart()` para garantir que os números fiquem sempre com dois dígitos.
-- **Estilização com CSS moderno**: aplicar sombras, cores contrastantes e centralização com Flexbox.
-- **Boas práticas de estruturação**: separar lógica em funções e manter o HTML limpo e sem elementos desnecessários.
-
----
-
-## 🛠️ Como usar:
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/relogio-digital.git
-
----
-
-### 💻 Código HTML 
-
-```html-->
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Relógio Digital</title>
   <style>
     body {
-     background-color: #000; 
-            color: #ff1493; 
+      background-color: #000;
+      color: #ff1493;
       font-family: Arial, sans-serif;
       display: flex;
       align-items: center;
@@ -85,11 +49,11 @@ git clone https://github.com/seu-usuario/relogio-digital.git
     window.addEventListener("DOMContentLoaded", () => {
       function updateClock() {
         const now = new Date();
-        const hours = now.getHours().toString().padStart(2, "0");
-        const minutes = now.getMinutes().toString().padStart(2, "0");
-        const seconds = now.getSeconds().toString().padStart(2, "0");
+        const horas = now.getHours().toString().padStart(2, "0");
+        const minutos = now.getMinutes().toString().padStart(2, "0");
+        const segundos = now.getSeconds().toString().padStart(2, "0");
 
-        document.getElementById("clock").textContent = `${hours}:${minutes}:${seconds}`;
+        document.getElementById("clock").textContent = `${horas}:${minutos}:${segundos}`;
       }
 
       setInterval(updateClock, 1000);
@@ -98,9 +62,3 @@ git clone https://github.com/seu-usuario/relogio-digital.git
   </script>
 </body>
 </html>
-<!--git init
-git add .
-git commit -m "Primeiro commit do relógio"
-git remote add origin https://github.com/beatechmelo/relogio-digital.git
-git branch -M main
-git push -u origin main-->
